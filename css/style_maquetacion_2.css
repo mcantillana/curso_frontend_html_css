@@ -1,0 +1,148 @@
+body {
+	font-size: 16px;
+	font-family: 'Lato';
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
+
+.col-10 {width: 10%}
+.col-20 {width: 20%}
+.col-30 {width: 30%}
+.col-40 {width: 40%}
+.col-50 {width: 50%}
+.col-60 {width: 60%}
+.col-70 {width: 70%}
+.col-80 {width: 80%}
+.col-90 {width: 90%}
+.clear {clear: both;}
+.row {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+
+header {
+	background: #00ADEF url(../image/bg_header.jpg) no-repeat center;
+	height: 645px;
+
+}
+
+	.menu {
+
+	}
+	.menu ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.menu ul li {
+		display: inline-block;
+	}
+
+	.menu ul li a {
+		text-decoration: none;
+		color: #FFFFFF;
+		display: block;
+		font-size: 1.1em;
+		
+	}
+	.menu ul li a:hover {
+		text-decoration: underline;
+	}
+	.menu ul li a::after {
+		content: "/";
+	}
+/*	.menu ul li a::after::last-child {
+		content: "";
+	}*/
+
+	.menu ul li a.active {
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.heading_text h1{
+		font-size: 3.5em;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		margin: 0;
+		padding-top: 2em;
+	}
+
+	.heading_text p {
+		color: #FFFFFF;
+		margin-top: 0;
+	}	
+
+	.personaje {
+		background: url(../image/personaje.png);
+
+		width: 480px;
+		height: 682px;
+		margin-top: 16px;
+	}
+
+section {
+	margin-bottom: 30px;
+}
+
+	article h2 {
+		color: #00ADEF;
+		font-size:2.3em;
+		text-transform: uppercase;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	article p{
+		line-height: 1.3em;
+		font-size: 1.2em;
+		margin-top:0;
+	}
+
+	article img {
+		border-radius: 2%;
+		border:1px solid #CCC;
+		padding:5px;
+		margin-right: 10px;
+	}
+
+
+footer {
+	background: #141C26 ;
+	height: 100px;
+}
+
+	footer p {
+		color: #D7DEEA;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 0.8em;
+
+	}
+
+	

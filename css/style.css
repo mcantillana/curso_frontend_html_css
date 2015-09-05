@@ -115,6 +115,66 @@ header {
 			    background-color: #EDEDED;
 			}
 
+	.menu {
+
+	}
+		.menu ul {
+			list-style-type: none;
+			padding: 0;			
+			margin: auto;
+			text-align: center;
+		}
+
+		.menu ul li {
+			display: inline-block;
+			position: relative;
+		}
+
+		.menu ul li a {
+				background: black;
+				color: white;
+				font-size: 12px;
+				padding: 5px;
+				text-decoration: none;
+				display: block;
+				
+				
+		}
+
+
+		.menu ul li a:hover {
+				background: #333;	
+		}
+
+		.menu ul li ul {
+			
+			position: absolute;
+			top: 27px;
+			left: 0;
+			list-style-type: none;
+			padding: 0;
+
+			display: none;
+			height: auto;
+
+
+		}
+
+		.menu ul li:hover ul {
+			display: block;
+		}
+
+		.menu ul li ul li {
+			display: block;
+
+			width: 200px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 12px;
+			text-align: left;
+			margin: 0;
+		}
+
 /** -------------------- END HEADER ------------------ **/
 
 /** -------------------- SECTION ------------------ **/
